@@ -18,16 +18,7 @@ const quicksetup: WorkList = {
   description: " This amazing plugin lets you create empty pages and dividers, no matter what subscription.",
   title: "Quick Setup"
 };
-const vscodethemes: WorkList = {
-  url: "https://marketplace.visualstudio.com/publishers/wicked-labs",
-  description: " A collection of 7 VS Code themes",
-  title: "VS Code Themes"
-};
-const flabbergasted: WorkList = {
-  url: "https://marketplace.visualstudio.com/publishers/wicked-labs",
-  description: "My newsletter about tech news and articles, tools and tips for UI Designers & Developers.",
-  title: "Flabbergasted"
-};
+
 export const byName = {
   svgdoodles,
   svggradients,
