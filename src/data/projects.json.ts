@@ -36,4 +36,4 @@ export const byName = {
   flabbergasted
 
 };
-export const Projects = Object.values(byName);
+export const projects = Object.values(byName);
