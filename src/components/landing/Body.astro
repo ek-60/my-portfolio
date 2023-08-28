@@ -153,18 +153,18 @@ import { workList } from "../../data/workList.json";
       class="mx-auto grid grid-cols-1 text-secondary items-start gap-6 mt-32"
       role="list">
 {
-        otherprojects.map((template) => (
+        workList.map((Work) => (
       <li class="flow-root h-full" data-aos="fade-up" data-aos-duration="1500">
-        <a href={template.url}>
+        <a href={Work.url}>
           <div class="h-full flex flex-col justify-between">
             <div>
               <p
                 class="group-hover:text-secondary/70 text-secondary text-9xl font-bold lg:mb-8 xl:mb-0">
-                href={template.url}
+                href={Work.time}
               </p>
               <p class="italic shrink-0">Lexington Themes</p>
               <p class="text-xs mt-3 leading-relaxed">
-                {template.title}
+                {Work.title}
               </p>
             </div>
             <div>
