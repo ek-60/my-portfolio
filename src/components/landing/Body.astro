@@ -156,11 +156,12 @@ import { workList } from "../../data/workList.json";
       </h3>
     </div>
 
+{
+        workList.map((Work) => (
         <ul
       class="mx-auto grid grid-cols-1 text-secondary items-start gap-6 mt-32"
       role="list">
-{
-        workList.map((Work) => (
+
       <li class="flow-root h-full" data-aos="fade-up" data-aos-duration="1500">
         <a href={Work.url}>
           <div class="h-full flex flex-col justify-between">
@@ -183,10 +184,10 @@ import { workList } from "../../data/workList.json";
           </div>
         </a>
       </li>
+
+    </ul>
    ))
       }
-    </ul>
-
 
 <!-- HTML comment syntax is valid in .astro files 
 
