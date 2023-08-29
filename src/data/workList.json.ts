@@ -7,7 +7,7 @@ const hoyry: Work = {
   url: "https://www.svgdoodles.com/",
   time: "May 2023 -",
   company: "at Digi- ja mainostoimisto Höyry",
-  title: "Technical Services Advisor at Digi- ja mainostoimisto Höyry"
+  title: "Technical Services Advisor"
 };
 const migri: Work = {
   url: "https://www.svggradients.com/",
