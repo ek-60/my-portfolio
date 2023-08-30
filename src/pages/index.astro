@@ -5,6 +5,7 @@ import Body from "../components/landing/Body.astro";
 import Testimonials from "../components/landing/Testimonials.astro";
 import Features from "../components/landing/Features.astro";
 import { AstroSeo } from "@astrolib/seo";
+import About from "../components/landing/About.astro"
 ---
 
 <!---
@@ -16,6 +17,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   canonical="https://michaelandreuzza.com"
 />
 <BaseLayout>
+  <About />
   <Hero />
   <Body />
   <Testimonials />
