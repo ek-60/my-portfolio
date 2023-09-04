@@ -5,7 +5,7 @@ import { workList } from "../../data/workList.json";
 
 <section class="bg-primary">
 
-  <div class="px-8 2xl:max-w-7xl mx-auto py-32">
+  <div class="px-8 2xl:max-w-7xl  mx-auto py-32">
 
     <!-- SECTION HEADER -->
     <div class="space-y-2">
@@ -29,8 +29,8 @@ import { workList } from "../../data/workList.json";
     </div>
 
     { workList.map((Work) => (
-    <div class="flex sm:flex-row flex-col w-full h-full text-secondary gap-6 mt-32" data-aos="fade-up" data-aos-duration="1500">
-        <div class="">
+    <div class="flex sm:flex-row flex-col w-full text-secondary gap-6 mt-32" data-aos="fade-up" data-aos-duration="1500">
+        <div class="sm:flex justify-center items-center">
             <h3 class="text-9xl font-bold sm:-rotate-90">{Work.num}</h3>
         </div>
         <div class="flex flex-col justify-center w-full">
