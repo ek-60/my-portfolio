@@ -6,6 +6,10 @@ module.exports = {
   theme: {
     extend: {
 
+      backgroundImage: {
+        'contact-pattern': "url('/src/assets/background-1.jpg')",
+      },
+
       colors: {
         //white: "#8f9197",
 
