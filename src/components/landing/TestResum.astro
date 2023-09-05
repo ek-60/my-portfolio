@@ -8,29 +8,17 @@ import { workList } from "../../data/workList.json";
     <div class="flex flex-col 2xl:max-w-7xl w-full h-full px-8 py-6 gap-12">
         
         <div data-aos="fade-up" data-aos-duration="1500">
-            <!-- <div
-                class="h-0.5 bg-secondary"
-                data-aos="fade-up"
-                data-aos-duration="1000">
-            </div> -->
             <h2 class="text-5xl flex flex-col">
                 <span class=" italic">My</span>
-                <span class="font-bold">recent works</span>
+                <span class="font-bold">resum</span>
             </h2>
-
-            <!-- <div
-                class="h-1.5 bg-secondary"
-                data-aos="fade-up"
-                data-aos-duration="2000">
-            </div> -->
         </div>
         
-
         <div class="grid md:grid-cols-3 grid-cols-1 grid-rows-1 gap-4 w-full">
             { workList.map((Work) => (
             <div class="flex flex-col w-full text-secondary gap-6 my-12 sm:my-32" data-aos="fade-up" data-aos-duration="2000">
                 <div class="flex justify-start items-start ">
-                    <h3 class="text-9xl font-bold">{Work.num}</h3>
+                    <h3 class="hidden text-9xl font-bold">{Work.num}</h3>
                 </div>
                 <div class="flex flex-col justify-center w-full">
                     <p class="italic shrink-0">
@@ -47,7 +35,6 @@ import { workList } from "../../data/workList.json";
             ))
             }
         </div>
-         
         
 
 
